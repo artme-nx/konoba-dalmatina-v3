@@ -1,0 +1,66 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify design/tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-ink-700: #4C2831;
+  --primitive-color-ink-800: #35191E;
+  --primitive-color-ink-900: #221115;
+  --primitive-color-ink-950: #170B0D;
+  --primitive-color-bone-100: #F5EEE2;
+  --primitive-color-bone-300: #DFC9AE;
+  --primitive-color-bone-500: #A6907A;
+  --primitive-color-olive-500: #A99143;
+  --primitive-color-olive-700: #7C6B2E;
+  --primitive-color-olive-900: #3A331A;
+  --primitive-font-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --primitive-font-sans: var(--font-figtree), 'Figtree', system-ui, sans-serif;
+  --primitive-motion-duration-micro: 180ms;
+  --primitive-motion-duration-base: 320ms;
+  --primitive-motion-duration-reveal: 1.1s;
+  --primitive-motion-duration-cine: 1.8s;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-cine: cubic-bezier(0.65, 0, 0.35, 1);
+  --primitive-tracking-display: -0.01em;
+  --primitive-tracking-label: 0.28em;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #170B0D;
+  --foreground: #F5EEE2;
+  --card: #221115;
+  --card-foreground: #F5EEE2;
+  --muted: #221115;
+  --muted-foreground: #A6907A;
+  --accent: #35191E;
+  --accent-foreground: #F5EEE2;
+  --border: #4C2831;
+  --ring: #A99143;
+  --radius: 0.7rem;
+  --brass: #A99143;
+  --brass-dim: #3A331A;
+  --surface-line: #4C2831;
+  --type-display: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
+  --type-body: var(--font-figtree), 'Figtree', system-ui, sans-serif;
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-cine: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-micro: 180ms;
+  --duration-base: 320ms;
+  --duration-reveal: 1.1s;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.28em;
+}
+
+/* === COMPONENTS === */
+:root {
+  --hero-title-size: clamp(2.7rem, 7vw, 5.8rem);
+  --hero-title-leading: 1.04;
+  --hero-glow: radial-gradient(ellipse 70% 50% at 50% 100%, rgba(169, 145, 67, 0.20), rgba(58, 51, 26, 0.1) 45%, transparent 72%);
+  --hero-vignette: linear-gradient(to top, rgba(23, 11, 13, 0.96) 0%, rgba(23, 11, 13, 0.32) 42%, rgba(23, 11, 13, 0.58) 100%);
+  --button-primary-bg: #A99143;
+  --button-primary-fg: #170B0D;
+  --button-primary-hover-bg: #F5EEE2;
+  --button-ghost-border: rgba(245, 238, 226, 0.35);
+  --button-ghost-hover-border: #A99143;
+}

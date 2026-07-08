@@ -1,0 +1,6 @@
+:HL["/konoba-dalmatina-v3/_next/static/chunks/1_5s1wpenwz_g.css","style"]
+:HL["/konoba-dalmatina-v3/_next/static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/konoba-dalmatina-v3/_next/static/media/8bd76523131fa0fc-s.p.1pvupmngxrt5z.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/konoba-dalmatina-v3/_next/static/media/f7aa21714c1c53f8-s.p.0-95eo-012xnf.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://images.unsplash.com/photo-1772555429713-c53ec3fcc575?auto=format&fit=crop&w=1900&q=80","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"7prk4byq9ttPyLlFJFxob"}

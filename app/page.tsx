@@ -145,10 +145,6 @@ export default function Home() {
             </div>
             <div className="text-label mt-1" style={{ color: "var(--muted-foreground)" }}>Recenzija</div>
           </div>
-          <div>
-            <div className="font-display text-4xl" style={{ color: "var(--foreground)" }}>#17</div>
-            <div className="text-label mt-1" style={{ color: "var(--muted-foreground)" }}>Od 294 restorana u Zadru</div>
-          </div>
         </div>
       </div>
 

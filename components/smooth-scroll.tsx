@@ -19,9 +19,21 @@ export function SmoothScroll({ children }: { children: React.ReactNode }) {
     gsap.ticker.add(raf);
     gsap.ticker.lagSmoothing(0);
 
+    // Lazy-loaded images finish loading well after Lenis's initial measurement,
+    // growing the page taller than Lenis's cached scroll limit — resync on each load.
+    const refresh = () => {
+      lenis.resize();
+      ScrollTrigger.refresh();
+    };
+    const pendingImages = Array.from(document.images).filter((img) => !img.complete);
+    pendingImages.forEach((img) => img.addEventListener("load", refresh, { once: true }));
+    window.addEventListener("load", refresh);
+
     return () => {
       gsap.ticker.remove(raf);
       lenis.destroy();
+      pendingImages.forEach((img) => img.removeEventListener("load", refresh));
+      window.removeEventListener("load", refresh);
     };
   }, []);
 
